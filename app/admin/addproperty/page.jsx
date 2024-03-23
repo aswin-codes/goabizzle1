@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import AdminNavbar from "../items/AdminNavbar";
+import AdminNavbar from "@/Components/admin/AdminNavbar";
 import { useDispatch, useSelector } from "react-redux";
 import { Button, Input, Select, SelectItem, Textarea } from "@nextui-org/react";
 import {
