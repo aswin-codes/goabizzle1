@@ -1,10 +1,10 @@
 "use client";
 import React, { useLayoutEffect, useState } from "react";
-import AdminNavbar from "@/components/admin/AdminNavbar";
-import AdminSideBar from "@/components/admin/AdminSideBar";
+import AdminNavbar from "./items/AdminNavbar";
+import AdminSideBar from "./items/AdminSideBar";
 import { useSelector } from "react-redux";
-import RequestsTab from "@/components/admin/RequestsTab";
-import PropertiesTab from "@/components/admin/PropertiesTab";
+import RequestsTab from "./items/RequestsTab";
+import PropertiesTab from "./items/PropertiesTab";
 import Cookies from "universal-cookie";
 import accountDetails from "@/actions/getUser";
 import { useRouter } from "next/navigation"
